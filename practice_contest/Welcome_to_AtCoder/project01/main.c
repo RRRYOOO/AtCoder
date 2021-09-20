@@ -11,7 +11,7 @@ int main() {
 	char str[32], *temp1, *temp2;
 	
 	temp1 = (char*)malloc(sizeof(char) * 100);
-	temp2 = (int*)malloc(sizeof(int)*4);
+	temp2 = (char*)malloc(sizeof(char) * 4);
 	while (i < ABC)
 	{
 		fgets(temp1, sizeof(temp1), stdin);
