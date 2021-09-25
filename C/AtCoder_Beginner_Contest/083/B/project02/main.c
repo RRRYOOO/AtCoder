@@ -1,10 +1,10 @@
 /***********************************************************************************
-	Project  : project02
-	FileName : main.c
-	Date     : 2021.09.23
-	Question : ABC_083_B
-	Summary  : 1以上N以下の整数のうち、10進法で各桁の和がA以上B以下であるもの
-			   について、総和を求めてください。
+    Project  : project02
+    FileName : main.c
+    Date     : 2021.09.23
+    Question : ABC_083_B
+    Summary  : 1以上N以下の整数のうち、10進法で各桁の和がA以上B以下であるもの
+               について、総和を求めてください。
 ***********************************************************************************/
 #include <stdio.h>
 
@@ -31,13 +31,13 @@ void main()
 
 
 /***********************************************************************************
-	Function : SumDigit
-	Argument : (I/O)型;
-			   int objectNum(計算対象の数値)
-	Return   : (I)型
-			   int sumEachDigit(各桁の合計値)
-	Summary  : 渡された数値の各桁の合計値を返す
-	Caution  :
+    Function : SumDigit
+    Argument : (I/O)型;
+               int objectNum(計算対象の数値)
+    Return   : (I)型
+               int sumEachDigit(各桁の合計値)
+    Summary  : 渡された数値の各桁の合計値を返す
+    Caution  :
 ***********************************************************************************/
 int SumDigit(int objectNum)
 {
