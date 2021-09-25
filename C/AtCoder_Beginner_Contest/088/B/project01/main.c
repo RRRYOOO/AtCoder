@@ -1,9 +1,9 @@
 ﻿/***********************************************************************************
-	Project  : project01
-	FileName : main.c
-	Date     : 2021.09.23
-	Question : ABC_088_B
-	Autline  : N 枚のカードがあり、i 枚目のカードには, ai​という数が書かれています.
+    Project  : project01
+    FileName : main.c
+    Date     : 2021.09.23
+    Question : ABC_088_B
+    Summary  : N 枚のカードがあり、i 枚目のカードには, ai​という数が書かれています.
                Alice と Bob は, これらのカードを使ってゲームを行います.
 			   ゲームでは, Alice と Bob が交互に 1 枚ずつカードを取っていきます.
 			   Alice が先にカードを取ります.
@@ -12,7 +12,6 @@
 			   2 人とも自分の得点を最大化するように最適な戦略を取った時,
 			   Alice は Bob より何点多く取るか求めてください.
 ***********************************************************************************/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -61,7 +60,13 @@ void main()
 
 
 /***********************************************************************************
-	・渡された配列を大きい順に並び替える
+	Function : ChangeArrayOeder
+	Argument : (I)型;
+               int *cardsArray(カードの配列)
+			   int cardCount(カードの枚数)
+    Return   : (void)型
+    Summary  : 渡された配列を大きい順に並び替える
+    Caution  :
 ***********************************************************************************/
 void ChangeArrayOeder(int *cardsArray, int cardCount)
 {
@@ -80,8 +85,16 @@ void ChangeArrayOeder(int *cardsArray, int cardCount)
 	orderingArray = NULL;
 }
 
+
 /***********************************************************************************
-	・渡された配列の中で最大値を持つ要素のアドレスを返す
+    Function : ChangeArrayOeder
+    Argument : (I/O)型;
+	           int *cardsArray(カードの配列)
+               int cardCount(カードの枚数)
+    Return   : (I)型
+	           int* maxNunberAddress(渡された配列の中で最大値を持つ要素のアドレス)
+    Summary  : 渡された配列の中で最大値を持つ要素のアドレスを返す
+    Caution  :
 ***********************************************************************************/
 int* PickUpMaxNumberAddress(int *cardsArray, int cardCount)
 {
