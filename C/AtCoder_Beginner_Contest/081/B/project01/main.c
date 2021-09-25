@@ -1,9 +1,9 @@
 /***********************************************************************************
-	Project  : project01
-	FileName : main.c
-	Date     : 2021.09.20
-	Question : ABC_081_B
-	Summary  : 黒板に N 個の正の整数 A1,...,AN が書かれています．
+    Project  : project01
+    FileName : main.c
+    Date     : 2021.09.20
+    Question : ABC_081_B
+    Summary  : 黒板に N 個の正の整数 A1,...,AN が書かれています．
                すぬけ君は，黒板に書かれている整数がすべて偶数であるとき，次の操作
                を行うことができます．
                黒板に書かれている整数すべてを，2 で割ったものに置き換える．
@@ -48,15 +48,15 @@ int main() {
 
 
 /***********************************************************************************
-	Function : judge
-	Argument : (I/O)型;
-			   int *num(整数の配列)
-			   int count(整数の個数)
-	Return   : (I)型
-			   int* flag(配列の数がすべて2で割れるかのフラグ)
-	Summary  : 配列の数がすべて2で割れるかを判定する。
+    Function : judge
+    Argument : (I/O)型;
+               int *num(整数の配列)
+               int count(整数の個数)
+    Return   : (I)型
+               int* flag(配列の数がすべて2で割れるかのフラグ)
+    Summary  : 配列の数がすべて2で割れるかを判定する。
                2で割れる場合1を返し、それ以外の場合0を返す。
-	Caution  :
+    Caution  :
 ***********************************************************************************/
 int judge(int *num, int count)
 {
@@ -72,13 +72,13 @@ int judge(int *num, int count)
 
 
 /***********************************************************************************
-	Function : splite
-	Argument : (I)型;
-			   int *num(整数の配列)
-			   int count(整数の個数)
-	Return   : (void)型
-	Summary  : 配列の数すべてを2で割った数で上書きする。
-	Caution  :
+    Function : splite
+    Argument : (I)型;
+               int *num(整数の配列)
+               int count(整数の個数)
+    Return   : (void)型
+    Summary  : 配列の数すべてを2で割った数で上書きする。
+    Caution  :
 ***********************************************************************************/
 void splite(int *num, int count)
 {
