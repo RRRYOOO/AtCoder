@@ -1,9 +1,9 @@
 /***********************************************************************************
-	Project  : project01
-	FileName : main.c
-	Date     : 2021.09.20
-	Question : ABC_086_A
-	Summary  : シカのAtCoDeerくんは二つの正整数 a,bを見つけました。
+    Project  : project01
+    FileName : main.c
+    Date     : 2021.09.20
+    Question : ABC_086_A
+    Summary  : シカのAtCoDeerくんは二つの正整数 a,bを見つけました。
                aとbの積が偶数か奇数か判定してください。
 ***********************************************************************************/
 #include <stdio.h>
