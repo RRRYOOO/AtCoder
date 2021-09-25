@@ -1,8 +1,12 @@
-/***********************************************************************************
-	Program : main.c
-	Date    : 2021.09.21    
+﻿/***********************************************************************************
+	Project  : project01
+	FileName : main.c
+	Date     : 2021.09.21
+	Question : ABC_087_B
+	Summary  : 500円玉をAA枚、100円玉をBB枚、50円玉をCC枚持っています。
+               これらの硬貨の中から何枚かを選び、合計金額をちょうどXX円にする
+               方法は何通りあるでしょうか？
 ***********************************************************************************/
-
 #include <stdio.h>
 
 #define COIN_A 500
@@ -11,15 +15,15 @@
 
 void main()
 {
-	int coinsFiveHundred;	/* 500�~�ʂ̐�; [0-50]; */
-	int coinsOneHundred;	/* 100�~�ʂ̐�; [0-50]; */
-	int coinsFifty;     	/* 50�~�ʂ̐�; [0-50]; */
-	int targetAmount;       /* ���v���z; [50-20000]; */
-	int totalAmount = 0;    /* �R�C���̍��v���z�i�v�Z�p�j */
-	int countFiveHundred;   /* 500�~�ʂ̌��i���[�v�p�j */
-	int countOneHundred;    /* 100�~�ʂ̌��i���[�v�p�j */
-	int countFifty;         /* 50�~�ʂ̌��i���[�v�p�j */
-	int coinsPattern = 0;   /* ���傤�Ǎ��v���z�ɂȂ�R�C���̑g�ݍ��킹 */
+	int coinsFiveHundred;	/* 500円玉の数; [0-50]; */
+	int coinsOneHundred;	/* 100円玉の数; [0-50]; */
+	int coinsFifty;     	/* 50円玉の数; [0-50]; */
+	int targetAmount;       /* 合計金額; [50-20000]; */
+	int totalAmount = 0;    /* コインの合計金額（計算用） */
+	int countFiveHundred;   /* 500円玉の個数（ループ用） */
+	int countOneHundred;    /* 100円玉の個数（ループ用） */
+	int countFifty;         /* 50円玉の個数（ループ用） */
+	int coinsPattern = 0;   /* ちょうど合計金額になるコインの組み合わせ */
 
 	scanf("%d", &coinsFiveHundred);
 	scanf("%d", &coinsOneHundred);
