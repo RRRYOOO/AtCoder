@@ -5,8 +5,8 @@
     Question : ABC_088_B
     Summary  : N 枚のカードがあり、i 枚目のカードには, ai​という数が書かれています.
                Alice と Bob は, これらのカードを使ってゲームを行います.
-			   ゲームでは, Alice と Bob が交互に 1 枚ずつカードを取っていきます.
-			   Alice が先にカードを取ります.
+               ゲームでは, Alice と Bob が交互に 1 枚ずつカードを取っていきます.
+               Alice が先にカードを取ります.
 			   2 人がすべてのカードを取ったときゲームは終了し, 取ったカードの数の
 			   合計がその人の得点になります.
 			   2 人とも自分の得点を最大化するように最適な戦略を取った時,
@@ -62,7 +62,7 @@ void main()
 /***********************************************************************************
 	Function : ChangeArrayOeder
 	Argument : (I)型;
-               int *cardsArray(カードの配列)
+			   int *cardsArray(カードの配列)
 			   int cardCount(カードの枚数)
     Return   : (void)型
     Summary  : 渡された配列を大きい順に並び替える
@@ -89,10 +89,10 @@ void ChangeArrayOeder(int *cardsArray, int cardCount)
 /***********************************************************************************
     Function : ChangeArrayOeder
     Argument : (I/O)型;
-	           int *cardsArray(カードの配列)
-               int cardCount(カードの枚数)
+			   int *cardsArray(カードの配列)
+			   int cardCount(カードの枚数)
     Return   : (I)型
-	           int* maxNunberAddress(渡された配列の中で最大値を持つ要素のアドレス)
+			   int* maxNunberAddress(渡された配列の中で最大値を持つ要素のアドレス)
     Summary  : 渡された配列の中で最大値を持つ要素のアドレスを返す
     Caution  :
 ***********************************************************************************/
