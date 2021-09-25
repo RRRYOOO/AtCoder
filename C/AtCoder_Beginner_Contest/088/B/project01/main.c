@@ -60,8 +60,8 @@ void main()
 
 
 /***********************************************************************************
-	Function : ChangeArrayOeder
-	Argument : (I)型;
+    Function : ChangeArrayOeder
+    Argument : (I)型;
                int *cardsArray(カードの配列)
                int cardCount(カードの枚数)
     Return   : (void)型
